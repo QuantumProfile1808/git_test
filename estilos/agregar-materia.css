@@ -1,0 +1,54 @@
+.row{
+    height: 100%;
+}
+
+.caja{
+    text-align: left;
+    margin: 50px auto;
+    padding: 10px;
+    width: 30%;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+.caja h1{
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block; 
+    margin-bottom: 5px;
+    color: #555; 
+}
+
+.form-control {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+}
+.btn {
+    text-decoration: none;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none; 
+    display: inline-block; 
+    transition: background-color 0.3s ease;
+}
+.boton-guardar{
+    background-color: #224874;
+}
+.boton-guardar:hover{
+    background-color: #1e3f66;
+}

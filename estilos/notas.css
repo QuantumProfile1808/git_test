@@ -1,0 +1,64 @@
+
+.titulo {
+    text-align: center;
+    font-size: 20px;
+    margin: 30 auto;
+}
+
+.table-container {
+    overflow-x: auto; /* Permite el desplazamiento horizontal */
+}
+
+.table-notas {
+    color: #555;
+    width: 50%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th,td {
+    border-top: 1px solid #ddd ;
+    text-align: left;
+    padding: 9px;
+}
+
+th {
+    background-color: #224874;
+    color: white;
+}
+
+.table-notas tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternar color de filas */
+}
+
+.boton-guardar {
+    text-decoration: none;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: #555;
+    cursor: pointer;
+    font-size: 15px;
+    text-decoration: none; 
+    display: inline-block; 
+    transition: background-color 0.3s ease;
+}
+
+.boton-guardar:hover {
+    color: #224874; /* Cambia el color al pasar el ratón */
+}
+
+.alert {
+    padding: 15px;
+    background-color: #f8d7da; /* Color de fondo para la alerta */
+    color: #721c24; /* Color de texto para la alerta */
+    border: 1px solid #f5c6cb; /* Borde de la alerta */
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.form-control{
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+}
